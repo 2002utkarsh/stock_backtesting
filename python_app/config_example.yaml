@@ -1,0 +1,14 @@
+ticker: BTC/USDT
+start: 2021-01-01
+end: 2025-01-01
+initial_cash: 10000
+
+strategy:
+  name: rsi_macd_hybrid
+  params:
+    rsi_period: 14
+    rsi_overbought: 65
+    rsi_oversold: 35
+    macd_fast: 8
+    macd_slow: 17
+    macd_signal: 6
